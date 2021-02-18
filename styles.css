@@ -75,9 +75,7 @@ width: 183px;
     body {
         background: url('./assets/background.png') fixed no-repeat center;
     }
-    .time{
-        top: 80%;
-    }
+
 }
 ::-webkit-scrollbar{
     display: none;
