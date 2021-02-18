@@ -77,9 +77,15 @@ width: 183px;
     width: 100%;
     color: white;
     padding-left: 50%;
-    margin-top: 25%;
 }
 }
 ::-webkit-scrollbar{
     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+.time{
+    margin-top: 25%;
+
+}
 }
