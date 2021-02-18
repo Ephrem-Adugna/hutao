@@ -3,7 +3,8 @@
     src: url(https://ephrem-adugna.github.io/aether-discord/assets/zh-cn.ttf);
 }
 body {
-    background: url('./assets/background.png') fixed no-repeat;
+    background: url('./assets/background.png') fixed no-repeat center;
+    background-size:100% ;
 }
 * {
     font-family: genshinfont;
