@@ -8,24 +8,11 @@
        background-size: 100%;
    }
 }
-@media only screen and (max-width: 1870px) {
-       body {
-           background: url('./assets/background.png') fixed no-repeat center;
-       }
-}
+
 * {
     font-family: genshinfont;
 }
-.makeopaque{
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   opacity: 0.6;
-   z-index: 2;
-    background-color: black;
-}
+
 .time{
         position: absolute;
         top: 50%;
@@ -71,4 +58,23 @@ width: 183px;
     font-size: 40px;
     border-top: solid white 1px;
     -webkit-text-stroke: 2px black;
+}
+
+.makeopaque {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 190%;
+    opacity: 0.6;
+    z-index: 2;
+    background-color: black;
+}
+@media only screen and (max-width: 1870px) {
+    body {
+        background: url('./assets/background.png') fixed no-repeat center;
+    }
+    .time{
+        top: 80%;
+    }
 }
