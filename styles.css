@@ -2,9 +2,16 @@
     font-family: genshinfont;
     src: url(https://ephrem-adugna.github.io/aether-discord/assets/zh-cn.ttf);
 }
-body {
-    background: url('./assets/background.png') fixed no-repeat center;
-    background-size:100% ;
+@media only screen and (min-width: 1910px) {
+   body {
+       background: url('./assets/background.png') fixed no-repeat center;
+       background-size: 100%;
+   }
+}
+@media only screen and (max-width: 1870px) {
+       body {
+           background: url('./assets/background.png') fixed no-repeat center;
+       }
 }
 * {
     font-family: genshinfont;
@@ -38,7 +45,7 @@ width: 183px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
+    margin-top: 5px;
     transition: box-shadow 0.3s ease-in-out;
     -webkit-user-select: none;
     /* Safari */
@@ -60,7 +67,8 @@ width: 183px;
   }
 .innermeaning{
     display: block;
-    position: absolute;
+    position: relative;
     font-size: 40px;
+    border-top: solid white 1px;
     -webkit-text-stroke: 2px black;
 }
