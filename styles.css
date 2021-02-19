@@ -14,13 +14,14 @@
        left: 50%;
        transform: translate(-50%, -50%);
     text-align: center;
+    animation: example .5s;
+
    }
 }
 
 * {
     font-family: genshinfont;
 }
-
 
 .days, .hours, .minutes, .seconds{
     display: inline-block;
@@ -71,7 +72,7 @@ width: 183px;
 
 .time {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 45%;
     transform: translate(-50%, -50%);
     z-index: 3;
@@ -89,4 +90,44 @@ width: 183px;
     margin-top: 25%;
 
 }
+.label{
+margin-left: 8%;
+}
+}
+.navbar div{
+    display: inline-block;
+    font-size: 40px;
+    border: solid white 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+        -webkit-text-stroke: 2px black;
+
+}
+.navbar:hover{
+    cursor: pointer;
+}
+.navbar{
+    text-align: center;
+}
+.na{
+    float: left;
+    
+}
+.asia{
+    float: right;
+}
+.label{
+    font-size: 50px;
+        -webkit-text-stroke: 2px black;
+}
+@keyframes example {
+    from {
+       position: absolute;
+       top: 90%;
+    }
+
+    to {
+       top: 50%;
+    }
 }
