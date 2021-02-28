@@ -1,6 +1,6 @@
 
 function setElements() {
-    const hutao = new Date('March 2, 2021 13:0:0').getTime();
+    const hutao = new Date('March 2, 2021 15:0:0').getTime();
     const currentDate = new Date().getTime();
     let t = hutao - currentDate; 
     if (t >= 0) {
